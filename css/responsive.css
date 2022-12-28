@@ -1,0 +1,108 @@
+@media (min-width:992px) and (max-width:1199.99px){
+    #banner{
+        height: 600px;
+    }
+    #banner h1{
+        letter-spacing: 20px;
+    }
+    #service{
+        padding: 70px;
+    }
+    #service .service_item {
+        padding-right: 100px;
+        margin-top: 35px;
+    }
+}
+/*--medium device css--*/
+@media (min-width:768px) and (max-width:991.99px){
+    #banner{
+        height: 600px;
+    }
+    #banner h1{
+        font-size: 40px;
+        letter-spacing: 15px;
+    }
+    #banner h3{
+        font-size: 25px;
+    }
+    #banner a{
+        padding: 15px 35px;
+    }
+    #about{
+        padding: 60px;
+    }
+    #about .about_item {
+        padding: 20px 36px;
+        margin-top: 40px;
+    }
+    #about .about_item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    #service{
+        background: #f0f0e8;
+        padding: 70px;
+    }
+    #my_work .my_work_item img{
+        display: block;
+        width: 100%;
+    }
+    #contact .contact_form input{
+        padding:15px;
+    }
+    #contact .contact_form input{
+        padding:15px;
+    }
+    #contact .contact_form input{
+        padding:15px;
+    }
+    #contact .contact_form button{
+        padding: 15px;
+    }
+}
+/*--small device bootstrap --*/
+@media (min-width:576px) and (max-width:767.99px){
+    #banner{
+        height: 400px;
+    }
+    #banner h1{
+        font-size: 40px;
+        letter-spacing:7px;
+    }
+    #banner h3{
+        font-size: 10px;
+    }
+    #banner a{
+        padding: 5px 25px;
+    }
+    #about{
+        padding: 30px;
+    }
+    #about .about_item {
+        padding: 10px 15px;
+        margin-top: 20px;
+    }
+    #about .about_item:nth-child(2n){
+        border-right-color: transparent;
+    }
+    #service{
+        background: #f0f0e8;
+        padding: 40px;
+    }
+    #my_work .my_work_item img{
+        display: block;
+        width: 100%;
+    }
+    #contact .contact_form input{
+        padding:7px;
+    }
+    #contact .contact_form input{
+        padding:7px;
+    }
+    #contact .contact_form input{
+        padding:7px;
+    }
+    #contact .contact_form button{
+        padding: 7px;
+    }
+
+}
